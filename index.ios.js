@@ -3,7 +3,7 @@ import { Text, AppRegistry } from 'react-native';
 
 const App = () => {
 	return (
-		<Text>Some Text Here</Text>
+		<Text>Some text</Text>
 	);
 };
 
