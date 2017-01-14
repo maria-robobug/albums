@@ -1,4 +1,4 @@
-package com.react_native_one;
+package com.albums;
 
 import android.app.Application;
 import android.util.Log;
