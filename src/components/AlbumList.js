@@ -7,9 +7,11 @@ import AlbumDetail from './AlbumDetail';
 const API_URL = 'https://rallycoding.herokuapp.com/api/music_albums';
 
 class AlbumList extends Component {
-	state = { 
-		albums: [] 
-	};
+	constructor () {
+		super();
+		
+		this.state = { albums: [] };	
+	}
 	
 	componentWillMount () {
 		axios.get(API_URL)
